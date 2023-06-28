@@ -10,10 +10,8 @@ Os comentários são exibidos em ordem reversa, mostrando os mais recentes prime
 Os comentários são armazenados localmente no navegador usando o localStorage.
 Os comentários são carregados do localStorage assim que a aplicação inicia.
 # Tecnologias Utilizadas:
-React
-HTML
-CSS
-
+- React(JSX)
+- CSS
 # Como Utilizar:
 Clone este repositório para o seu ambiente local.
 Navegue até o diretório do projeto e execute o comando npm install para instalar as dependências.
@@ -21,9 +19,9 @@ Execute o comando npm start para iniciar a aplicação.
 Acesse http://localhost:3000 no seu navegador para visualizar a seção de comentários.
 Adicione comentários fornecendo um autor e o conteúdo no formulário.
 # Estrutura do Projeto
-##### App.js: Componente principal que renderiza a seção de comentários e o formulário.
-##### Form.js: Componente de formulário que permite aos usuários adicionar novos comentários.
-##### useFormHook.js: Hook personalizado que gerencia o estado do formulário e os comentários, incluindo a lógica para carregar e armazenar os comentários no localStorage.
+- App.js: Componente principal que renderiza a seção de comentários e o formulário.
+- Form.js: Componente de formulário que permite aos usuários adicionar novos comentários.
+- useFormHook.js: Hook personalizado que gerencia o estado do formulário e os comentários, incluindo a lógica para carregar e armazenar os comentários no localStorage.
 
 # Contribuição:
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull com melhorias, correções de bugs ou novos recursos.
